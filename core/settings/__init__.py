@@ -12,3 +12,4 @@ from core.settings.cors import *
 from core.settings.rest_framework import *
 from core.settings.logs import *
 from core.settings.messages import *
+from core.settings.session_timeout import *

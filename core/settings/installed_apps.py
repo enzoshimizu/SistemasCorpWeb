@@ -1,4 +1,5 @@
 DJANGO_APPS = [
+    'apps.contas',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -14,6 +15,7 @@ THIRD_APPS = [
 PROJECT_APPS = [
     'apps.base',
     'apps.pages',
+    'apps.perfil',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_APPS + PROJECT_APPS

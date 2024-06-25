@@ -1,5 +1,8 @@
 import os
 
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 # Se tiver configuração de email
 EMAIL_HOST = os.getenv('EMAIL_HOST')
 EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
