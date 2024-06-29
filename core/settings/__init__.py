@@ -13,3 +13,4 @@ from core.settings.rest_framework import *
 from core.settings.logs import *
 from core.settings.messages import *
 from core.settings.session_timeout import *
+from core.settings.i18n import *
